@@ -1,0 +1,19 @@
+1- Digite um número de 0 a 6, imprima o nome do dia da semana, 
+começando 0-domingo e terminando no 6-sábado.
+switch(x) {
+  case 0: alert("Domingo");
+          break; 
+  ...  
+  default: alert("Número inválido")   
+}
+
+2 - Imprima todos os números pares até o número informado.
+ for(var i=0;i<=10;i++){
+ }
+
+
+3- Imprima com alert a tabuada.
+ for(var i=0;i<=10;i++){
+ }
+ 
+ 
