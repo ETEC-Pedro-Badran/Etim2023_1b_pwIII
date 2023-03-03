@@ -23,9 +23,10 @@ function numerosPares(){
     var numero = parseInt( prompt("Digite o número limite"));
     var saida = "";
     var linha = "";
+    var limitelinha = 0;
     for(var n=2;n<numero;n=n+2) {
        linha += n+" ";
-       if (linha.length >= 100) {
+       if (limitelinha >= 100) {
         saida += '\n';
         saida += linha;
         linha = "";
@@ -35,6 +36,7 @@ function numerosPares(){
     if (linha.length>0) {
         saida += '\n';
         saida += linha;
+        limitelinha = 0;
     }
     alert(saida);
 }
