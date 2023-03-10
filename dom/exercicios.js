@@ -19,7 +19,7 @@ function diaDaSemana(){
       }
 }
 
-function numerosPares(){
+function numerosPares(callback){
     var numero = parseInt( prompt("Digite o número limite"));
     var saida = "";
     var linha = "";
@@ -38,7 +38,9 @@ function numerosPares(){
         saida += linha;
         limitelinha = 0;
     }
+    callback(saida);
     alert(saida);
+
 }
 
 function tabuada(){
