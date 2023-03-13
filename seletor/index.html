@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+</head>
+<body>
+    <h1>Select getElementBy</h1>
+    <p>getElementById() : Seleciona uma elemento através da referencia do seu id
+    <p>getElementByName() : Seleciona uma elemento através da referencia do seu name
+    <p>getElementByClass() : Seleciona uma elemento através da referencia pela classe CSS  
+
+    <h1>Select querySelector</h1>
+       Aceita seletores do CSS: . para claase, # para id, ou ao tipo
+       <p>
+        querySelectorAll(), mais de um elemento.
+       </p>
+    <h1>Element<h1>
+        <p>Podemos alterar qualquer atributo
+            de qualquer elemento utilizar setAttribute
+     
+    <script>
+        var ps = document.querySelectorAll("p");
+        for(var p in ps){
+            ps[p].setAttribute("style","color:red");
+        }
+    </script>    
+</body>
+</html>
